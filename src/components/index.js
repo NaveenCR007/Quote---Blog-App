@@ -4,6 +4,7 @@ import Footer from "./Footer/Footer";
 import Logo from "./Logo";
 import LogoutBtn from "./Header/LogoutBtn";
 import RTE from "./RTE";
+import SignUp from "./SignUp";
 import Login from "./Login";
 import Button from "./Button";
 import PostCard from "./PostCard";
@@ -29,6 +30,7 @@ export {
     Input,
     PostCard,
     Button,
+    SignUp,
     RTE,
     Login,
     PostForm,
