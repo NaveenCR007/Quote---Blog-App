@@ -1,6 +1,6 @@
 import { SignUp as SignUpComponent } from "../components"
 
-function Signup() {
+function SignUp() {
   return (
     <div>
       <SignUpComponent />
@@ -8,4 +8,4 @@ function Signup() {
   )
 }
 
-export default Signup
+export default SignUp
