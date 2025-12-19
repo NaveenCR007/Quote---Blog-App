@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom'
 import { useForm } from 'react-hook-form'
 
-function SignUp() {
+function SignUpComponent() {
   const navigate = useNavigate()
   const dispatch = useDispatch()
   const [error, setError] = useState('')
@@ -95,4 +95,4 @@ function SignUp() {
   )
 }
 
-export default SignUp
+export default SignUpComponent;
