@@ -4,7 +4,7 @@ import Footer from "./Footer/Footer";
 import Logo from "./Logo";
 import LogoutBtn from "./Header/LogoutBtn";
 import RTE from "./RTE";
-import Signup from "./Signup.jsx";
+import SignUp from "./SignUp.jsx";
 import Login from "./Login.jsx";
 import Button from "./Button";
 import PostCard from "./PostCard";
@@ -31,7 +31,7 @@ export {
     PostCard,
     Button,
     RTE,
-    Signup,
+    SignUp,
     Login,
     PostForm,
     AuthLayout,
