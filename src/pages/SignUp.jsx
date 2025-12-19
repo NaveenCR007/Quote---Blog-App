@@ -1,7 +1,7 @@
 import React from 'react'
-import { SignUp as SignUpComponent } from '../components/index'
+import { Signup as SignUpComponent } from '../components/index'
 
-function SignUp() {
+function Signup() {
   return (
     <div>
       <SignUpComponent />
@@ -9,4 +9,4 @@ function SignUp() {
   )
 }
 
-export default SignUp
+export default Signup

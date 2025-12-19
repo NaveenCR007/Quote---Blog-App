@@ -1,8 +1,8 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import { AddPost, AllPosts, AuthLayout, EditPost, Login, Post } from '../src/components/index'
-import SignUp from '../src/pages/SignUp.jsx'
+import { AddPost, AllPosts, AuthLayout, EditPost, Login, Post } from './components/index.js'
+import Signup from './pages/SignUp.jsx'
 import { Provider } from 'react-redux'
 import { store } from './store/store.js'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
@@ -31,7 +31,7 @@ const router = createBrowserRouter([
         path: "/signup",
         element: (
           <AuthLayout authentication={false}>
-            <SignUp />
+            <Signup />
           </AuthLayout>
         ),
       },
