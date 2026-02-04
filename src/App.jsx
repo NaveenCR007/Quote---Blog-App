@@ -26,7 +26,7 @@ function App() {
 
   return !loading ? (
     <div className='min-h-screen'>
-      <div className='w-full bg-green-200'>
+      <div className='w-full'>
         <Header />
         {/* main is a symantic tag */}
 

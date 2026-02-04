@@ -7,13 +7,13 @@ function PostCard({ $id, title, featuredImage }) {
     
     return (
         <Link to={`/post/${$id}`}>
-            <div className='w-full bg-gray-200 rounded-2xl p-2'>
+            <div className='w-full border rounded-sm p-2'>
                 <div className='w-full flex justify-center mb-4'>
                     {featuredImage ? (
                         <img
                             src={storageService.getFilePreview(featuredImage)}
                             alt={title}
-                            className='rounded-xl'
+                            className='rounded-sm'
                         />
                     ) : (
                         <div className='w-full h-40 bg-gray-400 rounded-xl flex items-center justify-center'>

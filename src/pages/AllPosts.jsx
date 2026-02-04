@@ -41,7 +41,7 @@ function AllPosts() {
                 <div className='w-full'>
                     <Container>
                         <div className='flex flex-wrap'>
-                            {posts ? <h1>Loading posts...</h1> : <h1>No posts!</h1>}
+                            {posts ? <h1 className='text-lg pl-2 font-bold'>Loading posts...</h1> : <h1 className='text-lg pl-2 font-bold text-center'>No posts!</h1>}
                         </div>
                     </Container>
                 </div>

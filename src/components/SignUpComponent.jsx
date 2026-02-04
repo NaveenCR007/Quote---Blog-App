@@ -33,8 +33,8 @@ function SignUpComponent() {
   }
 
   return (
-    <div className="flex items-center justify-center">
-      <div className={`mx-auto w-full max-w-lg bg-gray-100 rounded-xl p-10 border border-black/10`}>
+    <div className="flex items-center justify-center my-3">
+      <div className={`mx-auto w-full max-w-lg bg-gray-100 rounded-xl p-10 border border-black/50`}>
         <div className="mb-2 flex justify-center">
           <span className="inline-block w-full max-w-[100px]">
             <Logo width="100%" />
@@ -45,7 +45,7 @@ function SignUpComponent() {
           Already have an account?&nbsp;
           <Link
             to="/login"
-            className="font-medium text-primary transition-all duration-200 hover:underline"
+            className="font-medium text-blue-500 transition-all duration-200 hover:underline"
           >
             Sign In
           </Link>
@@ -84,7 +84,7 @@ function SignUpComponent() {
               })}
             />
 
-            <Button type="submit" className="w-full">
+            <Button type="submit" bgColor='bg-sky-500' textColor='text-white' className="w-full">
               Create Account
             </Button>
           </div>

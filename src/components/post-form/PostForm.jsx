@@ -115,10 +115,10 @@ function PostForm({post}) {
   }, [watch, setValue, generateSlug])
 
   return (
-    <form onSubmit={handleSubmit(submit)} className="flex flex-wrap">
+    <form onSubmit={handleSubmit(submit)} className="flex flex-wrap mt-4">
 
       {/* This is input side */}
-      <div className="w-2/3 px-2">
+      <div className="w-2/3 px-2 mb-2">
         <Input
           label="Title :"
           placeholder="Title"
@@ -148,7 +148,7 @@ function PostForm({post}) {
         <Input
           label="Featured Image :"
           type="file"
-          className="mb-4"
+          className="mb-4 border"
           accept="image/png, image/jpg, image/jpeg, image/gif"
           {...register("image", { required: !post })}
         />
@@ -171,7 +171,7 @@ function PostForm({post}) {
           {...register("status", { required: true })}
         />
 
-        <Button type="submit" bgColor={post ? "bg-green-500" : undefined} className="w-full text-center cursor-pointer">
+        <Button type="submit" bgColor={post ? "bg-green-500" : "bg-sky-500"} className="w-full text-center font-semibold cursor-pointer text-white">
           {post ? "Update" : "Create"}
         </Button>
       </div>
