@@ -84,7 +84,7 @@ function SignUpComponent() {
               })}
             />
 
-            <Button type="submit" bgColor='bg-sky-500' textColor='text-white' className="w-full">
+            <Button type="submit" bgColor='bg-sky-500' textColor='text-white' className="w-full shadow-[2px_2px_0_0_rgba(0,0,0,1)] hover:shadow-[1px_1px_0_0_rgba(0,0,0,1)]">
               Create Account
             </Button>
           </div>

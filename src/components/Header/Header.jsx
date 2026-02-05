@@ -13,7 +13,7 @@ function Header() {
     {
       name: "Home",
       path: '/',
-      active: true
+      active: authStatus
     },
 
     {
@@ -43,7 +43,7 @@ function Header() {
   ]
 
   return (
-    <header className='mt-2 py-2 border bg-white rounded-xl mx-2 shadow-[2px_2px_0_0_rgba(0,0,0,1)]'>
+    <header className=' py-2 border sticky top-2 z-10 bg-white rounded-md mx-2 shadow-[2px_3px_0_0_rgba(0,0,0,1)]'>
       <Container >
         <nav className='flex'>
           <div className='ml-4'>
@@ -58,7 +58,7 @@ function Header() {
               item.active ? (
                 <li key={item.name}>
                   {/* Redirect to the link */}
-                  <Button
+                  <Button className='shadow-[3px_3px_0_0_rgba(0,0,0,1)] hover:shadow-[2px_2px_0_0_rgba(0,0,0,1)]'
                     onClick={() => navigate(item.path)}>
                     {item.name}
                   </Button>

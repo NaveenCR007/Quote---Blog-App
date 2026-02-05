@@ -61,9 +61,9 @@ function Post() {
                 {isAuthor && (
                     <div className="flex gap-3 mb-6">
                         <Link to={`/edit-post/${post.$id}`}>
-                            <Button bgColor="bg-green-500">Edit</Button>
+                            <Button className='shadow-[2px_2px_0_0_rgba(0,0,0,1)] hover:shadow-[1px_1px_0_0_rgba(0,0,0,1)]' bgColor="bg-green-500" textColor='text-white'>Edit</Button>
                         </Link>
-                        <Button bgColor="bg-red-500" onClick={deletePost}>
+                        <Button className='shadow-[2px_2px_0_0_rgba(0,0,0,1)] hover:shadow-[1px_1px_0_0_rgba(0,0,0,1)]' bgColor="bg-red-400" textColor='text-white' onClick={deletePost}>
                             Delete
                         </Button>
                     </div>

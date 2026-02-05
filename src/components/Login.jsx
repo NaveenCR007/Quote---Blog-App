@@ -90,7 +90,7 @@ function Login() {
                             bgColor='bg-sky-500'
                             textColor='text-white'
                             type="submit"
-                            className="w-full"
+                            className="w-full shadow-[2px_2px_0_0_rgba(0,0,0,1)] hover:shadow-[1px_1px_0_0_rgba(0,0,0,1)]"
                         >Sign in</Button>
                     </div>
                 </form>

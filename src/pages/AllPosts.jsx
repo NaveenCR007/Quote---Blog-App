@@ -20,7 +20,7 @@ function AllPosts() {
     return <>
         {posts.length !== 0 ?
             (
-                <div className='w-full'>
+                <div className='w-full mt-4'>
                     <Container>
                         <div className='flex flex-wrap'>
                             {posts.map((post) => (
@@ -38,7 +38,7 @@ function AllPosts() {
             ) :
 
             (
-                <div className='w-full'>
+                <div className='w-full mt-4'>
                     <Container>
                         <div className='flex flex-wrap'>
                             {posts ? <h1 className='text-lg pl-2 font-bold'>Loading posts...</h1> : <h1 className='text-lg pl-2 font-bold text-center'>No posts!</h1>}

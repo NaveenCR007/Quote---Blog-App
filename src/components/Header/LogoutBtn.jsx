@@ -18,7 +18,7 @@ function LogoutBtn() {
         <Button
             bgColor="bg-sky-500"
             onClick={handleLogout}
-            className='inline-bock px-6 py-2 duration-200 rounded-full'
+            className='shadow-[3px_3px_0_0_rgba(0,0,0,1)] hover:shadow-[2px_2px_0_0_rgba(0,0,0,1)]'
         >
             Logout
         </Button>
