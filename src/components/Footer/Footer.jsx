@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <section className="relative overflow-hidden border border-t-2 border-t-black">
+    <section className="relative overflow-hidden bg-gray-700 border border-t-2 border-t-black">
       <div className="relative z-10 mx-auto max-w-7xl px-4">
         <div className="flex items-start justify-between">
           <div className="w-full p-6 md:w-1/2 lg:w-2/12">
@@ -13,7 +13,7 @@ function Footer() {
               <ul>
                 <li className="mb-3">
                   <Link
-                    className=" text-[15px] font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-[15px] font-medium text-white hover:text-gray-300"
                     to="/"
                   >
                     Features
@@ -21,7 +21,7 @@ function Footer() {
                 </li>
                 <li className="mb-3">
                   <Link
-                    className=" text-[15px] font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-[15px] font-medium text-white hover:text-gray-300"
                     to="/"
                   >
                     Pricing
@@ -29,7 +29,7 @@ function Footer() {
                 </li>
                 <li className="mb-3">
                   <Link
-                    className=" text-[15px] font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-[15px] font-medium text-white hover:text-gray-300"
                     to="/"
                   >
                     Affiliate Program
@@ -37,7 +37,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    className=" text-[15px] font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-[15px] font-medium text-white hover:text-gray-300"
                     to="/"
                   >
                     Press Kit
@@ -54,7 +54,7 @@ function Footer() {
               <ul>
                 <li className="mb-3">
                   <Link
-                    className=" text-[15px] font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-[15px] font-medium text-white hover:text-gray-300"
                     to="/"
                   >
                     Account
@@ -62,7 +62,7 @@ function Footer() {
                 </li>
                 <li className="mb-3">
                   <Link
-                    className=" text-[15px] font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-[15px] font-medium text-white hover:text-gray-300"
                     to="/"
                   >
                     Help
@@ -70,7 +70,7 @@ function Footer() {
                 </li>
                 <li className="mb-3">
                   <Link
-                    className=" text-[15px] font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-[15px] font-medium text-white hover:text-gray-300"
                     to="/"
                   >
                     Contact Us
@@ -78,7 +78,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    className=" text-[15px] font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-[15px] font-medium text-white hover:text-gray-300"
                     to="/"
                   >
                     Customer Support
@@ -95,7 +95,7 @@ function Footer() {
               <ul>
                 <li className="mb-3">
                   <Link
-                    className=" text-[15px] font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-[15px] font-medium text-white hover:text-gray-300"
                     to="/"
                   >
                     Terms &amp; Conditions
@@ -103,7 +103,7 @@ function Footer() {
                 </li>
                 <li className="mb-3">
                   <Link
-                    className=" text-[15px] font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-[15px] font-medium text-white hover:text-gray-300"
                     to="/"
                   >
                     Privacy Policy
@@ -111,7 +111,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link
-                    className=" text-[15px] font-medium text-gray-900 hover:text-gray-700"
+                    className=" text-[15px] font-medium text-white hover:text-gray-300"
                     to="/"
                   >
                     Licensing

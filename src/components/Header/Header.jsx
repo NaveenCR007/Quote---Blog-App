@@ -43,17 +43,17 @@ function Header() {
   ]
 
   return (
-    <header className=' py-2 border sticky top-2 z-10 bg-white rounded-md mx-2 shadow-[2px_3px_0_0_rgba(0,0,0,1)]'>
+    <header className='py-2 border sticky top-2 z-10 bg-white rounded-md mx-2 shadow-[2px_3px_0_0_rgba(0,0,0,1)]'>
       <Container >
-        <nav className='flex'>
-          <div className='ml-4'>
+        <nav className='flex justify-between items-center'>
+          <div className='hidden sm:block'>
             <Link to={'/'}>
               <Logo width={'w-10'} height={'h-10'} />
             </Link>
           </div>
 
           {/* <li> is the rendering element, so wrap it with () or return it */}
-          <ul className='flex ml-auto'>
+          <ul className='flex mx-auto sm:m-0'>
             {navItems.map((item) =>
               item.active ? (
                 <li key={item.name}>

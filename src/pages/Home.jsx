@@ -37,7 +37,7 @@ function Home() {
                             <h3 className='text-xl text-neutral-500 font-bold tracking-tight'>Discover expert perspective to spark ideas and strengthen your expertise.</h3>
                         </div>
 
-                        <div className="cards flex flex-wrap justify-center gap-4 mt-4">
+                        <div className="cards flex flex-wrap justify-center gap-4 mt-4 mx-auto">
                             <Card src="./shop1.webp"
                                 title={"App Development"}
                                 Desc={"EdTech: A Comprehensive App Development Course"}
@@ -79,12 +79,12 @@ function Home() {
                             />
                         </div>
 
-                        <div className='w-[95%] mx-auto h-72 border mt-4 rounded-xl bg-purple-100'>
-                            <h2 className='text-center text-3xl font-bold pt-16 tracking-tight'>Read. Write. Share Ideas That Matter.</h2>
-                            <p className='text-center text-lg tracking-tight pt-4 font-semibold text-neutral-600'>Discover insightful articles, practical guides, and stories written by people who love building, learning, and sharing knowledge. </p>
+                        <div className='w-[95%] mx-auto h-72 sm:h-60 border mt-4 rounded-xl bg-purple-100'>
+                            <h2 className='text-center text-xl sm:text-3xl font-bold pt-10 tracking-tight'>Read. Write. Share Ideas That Matter.</h2>
+                            <p className='text-center text-md sm:text-lg tracking-tight pt-4 font-semibold text-neutral-600'>Discover insightful articles, practical guides, and stories written by people who love building, learning, and sharing knowledge. </p>
 
                             <Link to={'/login'}>
-                                <Button className='py-3 mt-4 rounded-xl shadow-[0px_4px_0_0_rgba(0,0,0,1)] hover:shadow-none' bgColor='bg-white' textColor='text-black' >
+                                <Button className='py-3 mt-8 rounded-xl shadow-[0px_4px_0_0_rgba(0,0,0,1)] hover:shadow-none' bgColor='bg-white' textColor='text-black' >
                                     Start Reading
                                 </Button>
                             </Link>

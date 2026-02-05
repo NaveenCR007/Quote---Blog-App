@@ -63,6 +63,7 @@ function Post() {
                         <Link to={`/edit-post/${post.$id}`}>
                             <Button className='shadow-[2px_2px_0_0_rgba(0,0,0,1)] hover:shadow-[1px_1px_0_0_rgba(0,0,0,1)]' bgColor="bg-green-500" textColor='text-white'>Edit</Button>
                         </Link>
+                        
                         <Button className='shadow-[2px_2px_0_0_rgba(0,0,0,1)] hover:shadow-[1px_1px_0_0_rgba(0,0,0,1)]' bgColor="bg-red-400" textColor='text-white' onClick={deletePost}>
                             Delete
                         </Button>

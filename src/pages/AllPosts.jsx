@@ -22,9 +22,9 @@ function AllPosts() {
             (
                 <div className='w-full mt-4'>
                     <Container>
-                        <div className='flex flex-wrap'>
+                        <div className='w-full flex flex-wrap'>
                             {posts.map((post) => (
-                                <div key={post.$id} className='p-2 w-1/4'>
+                                <div key={post.$id} className='p-2 flex flex-wrap w-1/2 sm:w-1/3'>
                                     <PostCard
                                         $id={post.$id}
                                         title={post.title}
